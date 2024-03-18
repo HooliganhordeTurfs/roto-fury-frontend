@@ -5,13 +5,13 @@ export const POOL_REWARDS_ENABLED = JSON.parse(process.env.NEXT_PUBLIC_ENABLE_FE
 
 export const STABLE_COIN_LIST = ['CMST', 'USDT', 'USK']
 
-export const ENIGMA_URL = 'https://rotofury-api.netlify.app'
+export const ENIGMA_URL = 'https://roto.netlify.app'
 
 export const POOL_INFO_BASE_URL =
   `${ENIGMA_URL}/summary`
 
 export const COSMOS_KIT_WALLET_KEY = 'cosmos-kit@2:core//current-wallet'
 
-export const API_URL = 'https://auli6d9hg59vj31b0dtoi9nll4.ingress.europlots.com'
+export const API_URL = 'https://api.furya.xyz'
 
 export const ADV_MEMO = 'app.rotofury.money'
