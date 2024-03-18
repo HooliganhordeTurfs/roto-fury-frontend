@@ -5,7 +5,7 @@ export type FetchSupplyResponse = {
   total: number
 }
 
-const url = '/api/cors?url=https://apex.furya.zone/api/supply'
+const url = '/api/cors?url=https://roto.netlify.app/api/supply'
 export const fetchSupply = async (): Promise<FetchSupplyResponse> => {
   const response = await fetch(`${API_URL}/apex/supply`) || await fetch(url)
   let data = await response.json()
