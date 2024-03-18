@@ -1,0 +1,220 @@
+{
+  "name": "Pools list on mainnet",
+  "logoURI": "/img/logo.svg",
+  "keywords": [
+    "special tokens"
+  ],
+  "tags": {
+    "ProjectName": {
+      "name": "Roto Fury",
+      "description": "Tokens that are listed on Project"
+    }
+  },
+  "timestamp": "2024-01-23T15:01:19+0000",
+  "base_token": {
+    "id": "osmosis",
+    "chain_id": "osmosis-1",
+    "token_address": "",
+    "symbol": "OSMO",
+    "name": "Osmosis",
+    "decimals": 6,
+    "logoURI": "/logos/osmo.svg",
+    "tags": [
+      "native"
+    ],
+    "native": true,
+    "denom": "uosmo"
+  },
+  "routerAddress": "osmo1l3chahmh0ettepept8hpmhgg8hssshf8ymhn53fw65dzxckrl6yq40syqq",
+  "pools": [
+    {
+      "pool_id": "ampOSMO-OSMO",
+      "lpOrder": [
+        "ampOSMO",
+        "OSMO"
+      ],
+      "assetOrder": [
+        "ampOSMO",
+        "OSMO"
+      ],
+      "displayName": "ampOSMO-OSMO",
+      "displayLogo1": "/logos/amposmo.png",
+      "displayLogo2": "/logos/osmo.svg",
+      "pool_assets": [
+        {
+          "chain_id": "osmosis-1",
+          "token_address": "factory/osmo1dv8wz09tckslr2wy5z86r46dxvegylhpt97r9yd6qc3kyc6tv42qa89dr9/ampOSMO",
+          "symbol": "ampOSMO",
+          "name": "ampOSMO",
+          "decimals": 6,
+          "logoURI": "/logos/amposmo.png",
+          "tags": [
+            "native"
+          ],
+          "native": true,
+          "denom": "factory/osmo1dv8wz09tckslr2wy5z86r46dxvegylhpt97r9yd6qc3kyc6tv42qa89dr9/ampOSMO"
+        },
+        {
+          "id": "osmosis",
+          "chain_id": "osmosis-1",
+          "token_address": "uosmo",
+          "symbol": "OSMO",
+          "name": "OSMO",
+          "decimals": 6,
+          "logoURI": "/logos/osmo.svg",
+          "tags": [
+            "native"
+          ],
+          "native": true,
+          "denom": "uosmo"
+        }
+      ],
+      "lp_token": "factory/osmo1692tluwzzmnx56tm5v7r0n8v5fg32nrd9nuukp9jz458ap7wmcls9cz20m/uLP",
+      "swap_address": "osmo1692tluwzzmnx56tm5v7r0n8v5fg32nrd9nuukp9jz458ap7wmcls9cz20m",
+      "staking_address": "osmo1u5vvxk38gpkt3dlfrsq7s47ugjg6ar8zswyz52379jxdswef8s6qelq0tx",
+      "rewards_tokens": []
+    },
+    {
+      "pool_id": "SAIL-FURY",
+      "lpOrder": [
+        "SAIL",
+        "FURY"
+      ],
+      "assetOrder": [
+        "SAIL",
+        "FURY"
+      ],
+      "displayName": "SAIL-FURY",
+      "displayLogo1": "/logos/sail.png",
+      "displayLogo2": "/logos/fury.svg",
+      "pool_assets": [
+        {
+          "chain_id": "osmosis-1",
+          "token_address": "factory/osmo1rckme96ptawr4zwexxj5g5gej9s2dmud8r2t9j0k0prn5mch5g4snzzwjv/sail",
+          "symbol": "SAIL",
+          "name": "SAIL",
+          "decimals": 6,
+          "logoURI": "/logos/sail.png",
+          "tags": [
+            "native"
+          ],
+          "native": true,
+          "denom": "factory/osmo1rckme96ptawr4zwexxj5g5gej9s2dmud8r2t9j0k0prn5mch5g4snzzwjv/sail"
+        },
+        {
+          "id": "roto-fury",
+          "chain_id": "osmosis-1",
+          "token_address": "ibc/EDD6F0D66BCD49C1084FB2C35353B4ACD7B9191117CE63671B61320548F7C89D",
+          "symbol": "FURY",
+          "name": "FURY",
+          "decimals": 6,
+          "logoURI": "/logos/fury.svg",
+          "tags": [
+            "native"
+          ],
+          "native": true,
+          "denom": "ibc/EDD6F0D66BCD49C1084FB2C35353B4ACD7B9191117CE63671B61320548F7C89D"
+        }
+      ],
+      "lp_token": "factory/osmo1w8e2wyzhrg3y5ghe9yg0xn0u7548e627zs7xahfvn5l63ry2x8zstaraxs/uLP",
+      "swap_address": "osmo1w8e2wyzhrg3y5ghe9yg0xn0u7548e627zs7xahfvn5l63ry2x8zstaraxs",
+      "staking_address": "osmo1jszerakl59dafwkxek2ue28wpd6gec6d7gj6xtrqp2ettpv5sqcq4fu6lx",
+      "rewards_tokens": []
+    },
+    {
+      "pool_id": "FURY-OSMO",
+      "lpOrder": [
+        "FURY",
+        "OSMO"
+      ],
+      "assetOrder": [
+        "FURY",
+        "OSMO"
+      ],
+      "displayName": "FURY-OSMO",
+      "displayLogo1": "/logos/fury.svg",
+      "displayLogo2": "/logos/osmo.svg",
+      "pool_assets": [
+        {
+          "id": "roto-fury",
+          "chain_id": "osmosis-1",
+          "token_address": "ibc/EDD6F0D66BCD49C1084FB2C35353B4ACD7B9191117CE63671B61320548F7C89D",
+          "symbol": "FURY",
+          "name": "FURY",
+          "decimals": 6,
+          "logoURI": "/logos/fury.svg",
+          "tags": [
+            "native"
+          ],
+          "native": true,
+          "denom": "ibc/EDD6F0D66BCD49C1084FB2C35353B4ACD7B9191117CE63671B61320548F7C89D"
+        },
+        {
+          "id": "osmosis",
+          "chain_id": "osmosis-1",
+          "token_address": "uosmo",
+          "symbol": "OSMO",
+          "name": "OSMO",
+          "decimals": 6,
+          "logoURI": "/logos/osmo.svg",
+          "tags": [
+            "native"
+          ],
+          "native": true,
+          "denom": "uosmo"
+        }
+      ],
+      "lp_token": "factory/osmo18r35luyyfqp7jter6jc93vzhft5zjgvsgt2tgx76qez2lpjpzfxqwx4ynk/uLP",
+      "swap_address": "osmo18r35luyyfqp7jter6jc93vzhft5zjgvsgt2tgx76qez2lpjpzfxqwx4ynk",
+      "staking_address": "osmo1xrs9qtmvvv69xh34r9gtd0w0v8y99n8ywn89saryd923e5aay4aqev2zxn",
+      "rewards_tokens": []
+    },
+    {
+      "pool_id": "ROAR-OSMO",
+      "lpOrder": [
+        "ROAR",
+        "OSMO"
+      ],
+      "assetOrder": [
+        "ROAR",
+        "OSMO"
+      ],
+      "displayName": "ROAR-OSMO",
+      "displayLogo1": "/logos/lion.png",
+      "displayLogo2": "/logos/osmo.svg",
+      "pool_assets": [
+        {
+          "chain_id": "osmosis-1",
+          "token_address": "ibc/98BCD43F190C6960D0005BC46BB765C827403A361C9C03C2FF694150A30284B0",
+          "symbol": "ROAR",
+          "name": "Roar",
+          "decimals": 6,
+          "logoURI": "/logos/lion.png",
+          "tags": [
+            "native"
+          ],
+          "native": true,
+          "denom": "ibc/98BCD43F190C6960D0005BC46BB765C827403A361C9C03C2FF694150A30284B0"
+        },
+        {
+          "id": "osmosis",
+          "chain_id": "osmosis-1",
+          "token_address": "uosmo",
+          "symbol": "OSMO",
+          "name": "OSMO",
+          "decimals": 6,
+          "logoURI": "/logos/osmo.svg",
+          "tags": [
+            "native"
+          ],
+          "native": true,
+          "denom": "uosmo"
+        }
+      ],
+      "lp_token": "factory/osmo13c5k2wxq3cx5xanqnqjdyrwvgw0qs8ea7k8c9dzdddlthg55suhqpvjnq7/uLP",
+      "swap_address": "osmo13c5k2wxq3cx5xanqnqjdyrwvgw0qs8ea7k8c9dzdddlthg55suhqpvjnq7",
+      "staking_address": "osmo17w06dzncqlsz9m2assacrzmrqvmlc7y79updfzd0834q2jty9w6qwdvg9q",
+      "rewards_tokens": []
+    }
+  ]
+}

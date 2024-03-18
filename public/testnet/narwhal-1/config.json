@@ -1,0 +1,24 @@
+{
+  "fury_lair": "furya1kr3e5mypfhj6mcfx8pac64npy9ugcmpwcndm36ew7cnkuu9ykmsqx0h9z4",
+  "fee_distributor": "furya1pl02gs047p84auvavwcawgfkehawv9vhgyndpyqyee796txelefq4np7kc",
+  "incentive_factory": "furya1wqsyztz9qw2ert8n2zypq5pp5evyqtrj7pzagrj40rwkypgghm3qeqj2jg",
+  "frontend_helper": "furya1ldn4f4ycnq9sd9uncfemqqr58a6fpv8924wxs4w9zf6uz8hql2wsf2wwes",
+  "fury_base_token": {
+      "name": "FURY",
+      "denom": "ufury",
+      "decimals": 6
+  },
+  "lsd_token": {
+    "ampFURY": {
+      "name": "ampFURY",
+      "denom": "ufury",
+      "decimals": 6
+    },
+    "bFURY": {
+      "name": "bFURY",
+      "denom": "ibc",
+      "decimals": 6
+    }
+  }
+}
+

@@ -1,0 +1,24 @@
+{
+  "factory": "furya188uzgffek7xrru8myakjasjn84aqvfkw9a6wks2xzgawvqejkqxqg2vnxp",
+  "vaults": [
+    {
+      "pool_id": "FURY",
+      "vault_assets": {
+        "id": "roto-fury",
+        "chain_id": "furya-1",
+        "token_address": "ufury",
+        "symbol": "FURY",
+        "name": "FURY",
+        "decimals": 6,
+        "logoURI": "/logos/fury.svg",
+        "tags": ["native"],
+        "native": true,
+        "denom": "ufury"
+      },
+      "lp_token": "furya1xzl0a08mzsjauj76qqzx2mmgtmexgrylyhn96xz44s0386rhhwlsj0s5tp",
+      "vault_address": "furya1d22dmna52l4aemcva9g0kyhyza0fsqlfmhfkrj2sxr87sxkhwzqs7u38wg",
+      "staking_address": "",
+      "rewards_tokens": []
+    }
+  ]
+}

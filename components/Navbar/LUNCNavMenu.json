@@ -1,0 +1,23 @@
+[
+  {
+    "label": "Dashboard",
+    "link": "/dashboard"
+  },
+  {
+    "label": "Bonding",
+    "link": "/bonding"
+  },
+  {
+    "label": "Trade",
+    "children": [
+      {
+        "label": "Swap",
+        "link": "/swap"
+      },
+      {
+        "label": "Pools",
+        "link": "/pools"
+      }
+    ]
+  }
+]

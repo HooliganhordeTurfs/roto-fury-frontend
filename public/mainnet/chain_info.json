@@ -1,0 +1,451 @@
+[
+  {
+    "chainId": "furya-1",
+    "chainName": "Furya Mainnet",
+    "label": "Furya",
+    "icon": "/logos/furya.png",
+    "rpc": "https://rpc.furya.xyz",
+    "rest": "https://api.furya.xyz",
+    "stakeCurrency": {
+      "coinDenom": "FURY",
+      "coinMinimalDenom": "ufury",
+      "coinDecimals": 6
+    },
+    "bip44": {
+      "coinType": 118
+    },
+    "bech32Config": {
+      "bech32PrefixAccAddr": "furya",
+      "bech32PrefixAccPub": "furyapub",
+      "bech32PrefixValAddr": "furyavaloper",
+      "bech32PrefixValPub": "furyavaloperpub",
+      "bech32PrefixConsAddr": "furyavalcons",
+      "bech32PrefixConsPub": "furyavalconspub"
+    },
+    "currencies": [
+      {
+        "coinDenom": "FURY",
+        "coinMinimalDenom": "ufury",
+        "coinDecimals": 6,
+        "coinGeckoId": "fanfury"
+      }
+    ],
+    "feeCurrencies": [
+      {
+        "coinDenom": "FURY",
+        "coinMinimalDenom": "ufury",
+        "coinDecimals": 6,
+        "coinGeckoId": "fanfury"
+      }
+    ],
+    "coinType": 118,
+    "gasPriceStep": {
+      "low": 0.025,
+      "average": 0.05,
+      "high": 0.1
+    },
+    "features": [
+      "cosmwasm"
+    ]
+  },
+  {
+    "chainId": "osmosis-1",
+    "chainName": "Osmosis",
+    "indexerUrl": "https://api.subquery.network/sq/fury-money/fury-injective-subql1",
+    "label": "Osmosis",
+    "icon": "/logos/osmo.svg",
+    "rpc": "https://osmosis-rpc.polkachu.com",
+    "rest": "https://osmosis-api.polkachu.com",
+    "bech32Config": {
+      "bech32PrefixAccAddr": "osmo",
+      "bech32PrefixAccPub": "osmopub",
+      "bech32PrefixValAddr": "osmovaloper",
+      "bech32PrefixValPub": "osmovaloperpub",
+      "bech32PrefixConsAddr": "osmovalcons",
+      "bech32PrefixConsPub": "osmovalconspub"
+    },
+    "bip44": {
+      "coinType": 118
+    },
+    "coinType": 118,
+    "feeCurrencies": [
+      {
+        "coinDenom": "OSMO",
+        "coinMinimalDenom": "uosmo",
+        "coinDecimals": 6,
+        "coingeckoId": "osmosis"
+      }
+    ],
+    "currencies": [
+      {
+        "coinDenom": "OSMO",
+        "coinMinimalDenom": "uosmo",
+        "coinDecimals": 6,
+        "coinGeckoId": "osmosis"
+      }
+    ]
+  },
+  {
+    "chainId": "kaiyo-1",
+    "chainName": "Kujira Mainnet",
+    "label": "Kujira",
+    "icon": "/logos/kujira.png",
+    "rpc": "https://ww-kujira-rpc.polkachu.com",
+    "rest": "https://ww-kujira-rest.polkachu.com",
+    "stakeCurrency": {
+      "coinDenom": "FURY",
+      "coinMinimalDenom": "uluna",
+      "coinDecimals": 6
+    },
+    "bip44": {
+      "coinType": 118
+    },
+    "bech32Config": {
+      "bech32PrefixAccAddr": "kujira",
+      "bech32PrefixAccPub": "kujirapub",
+      "bech32PrefixValAddr": "kujiravaloper",
+      "bech32PrefixValPub": "kujiravaloperpub",
+      "bech32PrefixConsAddr": "kujiravalcons",
+      "bech32PrefixConsPub": "kujiravalconspub"
+    },
+    "currencies": [
+      {
+        "coinDenom": "KUJI",
+        "coinMinimalDenom": "ukuji",
+        "coinDecimals": 6,
+        "coinGeckoId": "kujira"
+      }
+    ],
+    "feeCurrencies": [
+      {
+        "coinDenom": "KUJI",
+        "coinMinimalDenom": "ukuji",
+        "coinDecimals": 6,
+        "coinGeckoId": "kujira"
+      }
+    ],
+    "coinType": 330,
+    "gasPriceStep": {
+      "low": 0.07,
+      "average": 0.15,
+      "high": 0.2
+    },
+    "features": [
+      "cosmwasm"
+    ]
+  },
+  {
+    "chainId": "injective-1",
+    "chainName": "Injective",
+    "rpc": "https://ww-injective-rpc.polkachu.com",
+    "rest": "https://ww-injective-rest.polkachu.com",
+    "indexerUrl": "https://api.subquery.network/sq/fury-money/fury-injective-subql1",
+    "label": "Injective",
+    "icon": "/logos/injective.png",
+    "stakeCurrency": {
+      "coinDenom": "INJ",
+      "coinMinimalDenom": "inj",
+      "coinDecimals": 18,
+      "coinGeckoId": "injective-protocol"
+    },
+    "walletUrl": "https://hub.injective.dev/",
+    "walletUrlForStaking": "https://hub.injective.dev/",
+    "bip44": {
+      "coinType": 60
+    },
+    "bech32Config": {
+      "bech32PrefixAccAddr": "inj",
+      "bech32PrefixAccPub": "injpub",
+      "bech32PrefixValAddr": "injvaloper",
+      "bech32PrefixValPub": "injvaloperpub",
+      "bech32PrefixConsAddr": "injvalcons",
+      "bech32PrefixConsPub": "injvalconspub"
+    },
+    "currencies": [
+      {
+        "coinDenom": "INJ",
+        "coinMinimalDenom": "inj",
+        "coinDecimals": 18,
+        "coinGeckoId": "injective-protocol"
+      }
+    ],
+    "feeCurrencies": [
+      {
+        "coinDenom": "INJ",
+        "coinMinimalDenom": "inj",
+        "coinDecimals": 18,
+        "coinGeckoId": "injective-protocol",
+        "gasPriceStep": {
+          "low": 9000000000,
+          "average": 50000000000,
+          "high": 80000000000
+        }
+      }
+    ],
+    "gasPriceStep": {
+      "low": 9000000000,
+      "average": 50000000000,
+      "high": 80000000000
+    },
+    "coinType": 60,
+    "features": [
+      "ibc-transfer",
+      "ibc-go",
+      "eth-address-gen",
+      "eth-key-sign"
+    ]
+  },
+  {
+    "chainId": "chihuahua-1",
+    "chainName": "Chihuahua mainnet",
+    "label": "Chihuahua",
+    "icon": "/logos/huahua.png",
+    "rpc": "https://ww-chihuahua-rpc.polkachu.com",
+    "rest": "https://ww-chihuahua-rest.polkachu.com",
+    "stakeCurrency": {
+      "coinDenom": "huahua",
+      "coinMinimalDenom": "uhuahua",
+      "coinDecimals": 6
+    },
+    "bip44": {
+      "coinType": 118
+    },
+    "bech32Config": {
+      "bech32PrefixAccAddr": "chihuahua",
+      "bech32PrefixAccPub": "chihuahuapub",
+      "bech32PrefixValAddr": "chihuahuavaloper",
+      "bech32PrefixValPub": "chihuahuavaloperpub",
+      "bech32PrefixConsAddr": "chihuahuavalcons",
+      "bech32PrefixConsPub": "chihuahuavalconspub"
+    },
+    "currencies": [
+      {
+        "coinDenom": "Chihuahua",
+        "coinMinimalDenom": "uhuahua",
+        "coinDecimals": 6,
+        "coinGeckoId": "chihuahua-token"
+      }
+    ],
+    "feeCurrencies": [
+      {
+        "coinDenom": "Chihuahua",
+        "coinMinimalDenom": "uhuahua",
+        "coinDecimals": 6,
+        "coinGeckoId": "chihuahua-token"
+      }
+    ],
+    "coinType": 118,
+    "gasPriceStep": {
+      "low": 1,
+      "average": 5,
+      "high": 10
+    },
+    "features": [
+      "cosmwasm"
+    ]
+  },
+  {
+    "chainId": "pacific-1",
+    "chainName": "SEI Mainnet",
+    "rpc": "https://sei-rpc.polkachu.com",
+    "rest": "https://sei-api.polkachu.com",
+    "icon": "/logos/sei.svg",
+    "network_type": "mainnet",
+    "label": "Sei",
+    "stakeCurrency": {
+      "coinDenom": "SEI",
+      "coinMinimalDenom": "usei",
+      "coinDecimals": 6
+    },
+    "bip44": {
+      "coinType": 118
+    },
+    "coinType": 118,
+    "gasPriceStep": {
+      "low": 0.1,
+      "average": 0.1,
+      "high": 0.25
+    },
+    "bech32Config": {
+      "bech32PrefixAccAddr": "sei",
+      "bech32PrefixAccPub": "seipub",
+      "bech32PrefixValAddr": "seivaloper",
+      "bech32PrefixValPub": "seivaloperpub",
+      "bech32PrefixConsAddr": "seivalcons",
+      "bech32PrefixConsPub": "seivalconspub"
+    },
+    "currencies": [
+      {
+        "coinDenom": "SEI",
+        "coinMinimalDenom": "usei",
+        "coinDecimals": 6,
+        "coinGeckoId": "sei-network"
+      }
+    ],
+    "feeCurrencies": [
+      {
+        "coinDenom": "SEI",
+        "coinMinimalDenom": "usei",
+        "coinDecimals": 6,
+        "coinGeckoId": "sei-network"
+      }
+    ],
+    "features": [
+      "cosmwasm"
+    ]
+  },
+  {
+    "chainId": "columbus-5",
+    "chainName": "Terra Classic Mainnet",
+    "icon": "/logos/lunac.png",
+    "network_type": "mainnet",
+    "label": "Terra-Classic",
+    "stakeCurrency": {
+      "coinDenom": "LUNC",
+      "coinMinimalDenom": "uluna",
+      "coinDecimals": 6
+    },
+    "bip44": {
+      "coinType": 330
+    },
+    "gasPriceStep": {
+      "low": 28.325,
+      "average": 28.325,
+      "high": 50
+    },
+    "bech32Config": {
+      "bech32PrefixAccAddr": "terra",
+      "bech32PrefixAccPub": "terrapub",
+      "bech32PrefixValAddr": "terravaloper",
+      "bech32PrefixValPub": "terravaloperpub",
+      "bech32PrefixConsAddr": "terravalcons",
+      "bech32PrefixConsPub": "terravalconspub"
+    },
+    "currencies": [
+      {
+        "coinDenom": "LUNC",
+        "coinMinimalDenom": "uluna",
+        "coinDecimals": 6,
+        "coinGeckoId": "terra-luna"
+      }
+    ],
+    "feeCurrencies": [
+      {
+        "coinDenom": "LUNC",
+        "coinMinimalDenom": "uluna",
+        "coinDecimals": 6,
+        "coinGeckoId": "terra-luna"
+      }
+    ],
+    "features": [
+      "cosmwasm"
+    ]
+  },
+  {
+    "chainId": "juno-1",
+    "chainName": "Juno Mainnet",
+    "label": "Juno",
+    "icon": "/logos/juno.svg",
+    "rpc": "https://ww-juno-rpc.polkachu.com",
+    "rest": "https://juno-rpc.polkachu.com",
+    "indexerUrl": "https://api.subquery.network/sq/fury-money/fury-juno-subql",
+    "stakeCurrency": {
+      "coinDenom": "JUNO",
+      "coinMinimalDenom": "ujuno",
+      "coinDecimals": 6
+    },
+    "bip44": {
+      "coinType": 118
+    },
+    "bech32Config": {
+      "bech32PrefixAccAddr": "juno",
+      "bech32PrefixAccPub": "junopub",
+      "bech32PrefixValAddr": "junovaloper",
+      "bech32PrefixValPub": "junovaloperpub",
+      "bech32PrefixConsAddr": "junovalcons",
+      "bech32PrefixConsPub": "junovalconspub"
+    },
+    "currencies": [
+      {
+        "coinDenom": "JUNO",
+        "coinMinimalDenom": "ujuno",
+        "coinDecimals": 6,
+        "coinGeckoId": "juno-network"
+      }
+    ],
+    "feeCurrencies": [
+      {
+        "coinDenom": "JUNO",
+        "coinMinimalDenom": "ujuno",
+        "coinDecimals": 6,
+        "coinGeckoId": "juno-network"
+      }
+    ],
+    "coinType": 118,
+    "gasPriceStep": {
+      "low": 0.0,
+      "average": 0.0,
+      "high": 0.0
+    },
+    "features": [
+      "cosmwasm"
+    ]
+  },
+  {
+    "rpc": "https://rpc.comdex.one",
+    "rest": "https://ww-comdex-rest.polkachu.com",
+    "chainId": "comdex-1",
+    "chainName": "Comdex",
+    "label": "Comdex",
+    "icon": "/logos/comdex.png",
+    "stakeCurrency": {
+      "coinDenom": "CMDX",
+      "coinMinimalDenom": "ucmdx",
+      "coinDecimals": 6,
+      "coinGeckoId": "comdex"
+    },
+    "bip44": {
+      "coinType": 118
+    },
+    "bech32Config": {
+      "bech32PrefixAccAddr": "comdex",
+      "bech32PrefixAccPub": "comdexpub",
+      "bech32PrefixValAddr": "comdexvaloper",
+      "bech32PrefixValPub": "comdexvaloperpub",
+      "bech32PrefixConsAddr": "comdexvalcons",
+      "bech32PrefixConsPub": "comdexvalconspub"
+    },
+    "currencies": [
+      {
+        "coinDenom": "CMDX",
+        "coinMinimalDenom": "ucmdx",
+        "coinDecimals": 6,
+        "coinGeckoId": "comdex"
+      }
+    ],
+    "feeCurrencies": [
+      {
+        "coinDenom": "CMDX",
+        "coinMinimalDenom": "ucmdx",
+        "coinDecimals": 6,
+        "coinGeckoId": "comdex",
+        "gasPriceStep": {
+          "low": 0.25,
+          "average": 0.5,
+          "high": 1.0
+        }
+      }
+    ],
+    "gasPriceStep": {
+      "low": 0.25,
+      "average": 0.5,
+      "high": 1.0
+    },
+    "coinType": 118,
+    "features": [
+      "ibc-transfer",
+      "ibc-go"
+    ],
+    "beta": true
+  }
+]

@@ -1,0 +1,146 @@
+{
+  "mainnet": {
+    "juno": [
+      {
+        "tokenSymbol": "USK",
+        "amount": 0
+      },
+      {
+        "tokenSymbol": "FURY",
+        "amount": 0
+      }
+    ],
+    "terra2": [
+      {
+        "tokenSymbol": "USK",
+        "amount": 0
+      },
+      {
+        "tokenSymbol": "FURY",
+        "amount": 0
+      }
+    ],
+    "chihuahua": [
+      {
+        "tokenSymbol": "HUAHUA",
+        "amount": 0
+      },
+      {
+        "tokenSymbol": "FURY",
+        "amount": 0
+      }
+    ],
+    "injective": [
+      {
+        "tokenSymbol": "INJ",
+        "amount": 0
+      },
+      {
+        "tokenSymbol": "USDT",
+        "amount": 0
+      }
+    ],
+    "comdex": [
+      {
+        "tokenSymbol": "CMDX",
+        "amount": 0
+      },
+      {
+        "tokenSymbol": "ATOM",
+        "amount": 0
+      }
+    ],
+    "furya": [
+      {
+        "tokenSymbol": "FURY",
+        "amount": 0
+      },
+      {
+        "tokenSymbol": "ampFURY",
+        "amount": 0
+      }
+    ],
+    "sei": [
+      {
+        "tokenSymbol": "FURY",
+        "amount": 0
+      },
+      {
+        "tokenSymbol": "SEI",
+        "amount": 0
+      }
+    ],
+    "terra": [
+      {
+        "tokenSymbol": "LUNC",
+        "amount": 0
+      },
+      {
+        "tokenSymbol": "FURY",
+        "amount": 0
+      }
+    ],
+    "osmosis": [
+      {
+        "tokenSymbol": "OSMO",
+        "amount": 0
+      },
+      {
+        "tokenSymbol": "FURY",
+        "amount": 0
+      }
+    ]
+  },
+  "testnet": {
+    "junotestnet": [
+      {
+        "tokenSymbol": "JUNO",
+        "amount": 0
+      },
+      {
+        "tokenSymbol": "JUNOONE",
+        "amount": 0
+      }
+    ],
+    "terra": [
+      {
+        "tokenSymbol": "LUNA",
+        "amount": 0
+      },
+      {
+        "tokenSymbol": "LUNAONE",
+        "amount": 0
+      }
+    ],
+    "injectivetestnet": [
+      {
+        "tokenSymbol": "INJ",
+        "amount": 0
+      },
+      {
+        "tokenSymbol": "USDT",
+        "amount": 0
+      }
+    ],
+    "comdextestnet": [
+      {
+        "tokenSymbol": "CMDX",
+        "amount": 0
+      },
+      {
+        "tokenSymbol": "ATOM",
+        "amount": 0
+      }
+    ],
+    "furyatestnet": [
+      {
+        "tokenSymbol": "FURY",
+        "amount": 0
+      },
+      {
+        "tokenSymbol": "WILLye",
+        "amount": 0
+      }
+    ]
+  }
+}

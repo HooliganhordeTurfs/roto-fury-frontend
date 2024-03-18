@@ -1,0 +1,32 @@
+[
+  {
+    "label": "Dashboard",
+    "link": "/dashboard"
+  },
+  {
+    "label": "Trade",
+    "children": [
+      {
+        "label": "Swap",
+        "link": "/swap"
+      },
+      {
+        "label": "Pools",
+        "link": "/pools"
+      }
+    ]
+  },
+  {
+    "label": "Flashloan",
+    "children": [
+      {
+        "label": "Flashloan",
+        "link": "/flashloan"
+      },
+      {
+        "label": "Vaults",
+        "link": "/vaults"
+      }
+    ]
+  }
+]

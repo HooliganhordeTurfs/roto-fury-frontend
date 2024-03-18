@@ -1,0 +1,254 @@
+{
+  "name": "Pools list on testnet",
+  "logoURI": "/logos/logo.svg",
+  "keywords": ["special tokens"],
+  "tags": {
+    "ProjectName": {
+      "name": "Roto Fury",
+      "description": "Tokens that are listed on Project"
+    }
+  },
+  "timestamp": "2021-06-12T00:00:00+00:00",
+  "base_token": {
+    "id": "roto-fury",
+    "chain_id": "narwhal-1",
+    "token_address": "ufury",
+    "symbol": "FURY",
+    "name": "Fury",
+    "decimals": 6,
+    "logoURI": "/logos/fury.svg",
+    "tags": ["native"],
+    "native": true,
+    "denom": "ufury"
+  },
+  "routerAddress": "furya1zwv6feuzhy6a9wekh96cd57lsarmqlwxdypdsplw6zhfncqw6ftqqhavvl",
+  "pools": [
+     {
+      "pool_id": "FURY-LUNA",
+      "lpOrder": ["FURY", "LUNA"],
+      "displayName": "FURY-LUNA",
+      "displayLogo1": "/logos/furya.png",
+      "displayLogo2": "/logos/atom.png",
+      "pool_assets": [
+        {
+          "id": "roto-fury",
+          "chain_id": "narwhal-1",
+          "token_address": "ufury",
+          "symbol": "FURY",
+          "name": "Fury",
+          "decimals": 6,
+          "logoURI": "/logos/fury.svg",
+          "tags": ["native"],
+          "native": true,
+          "denom": "ufury"
+        },
+        {
+          "id": "terra-luna-2",
+          "chain_id": "narwhal-1",
+          "token_address": "ibc/265435C653FE85CD659E88CD51D4A735BDD4D3804871400378A488C71D68C72B",
+          "symbol": "LUNA",
+          "name": "LUNA",
+          "decimals": 6,
+          "logoURI": "/logos/atom.png",
+          "tags": [],
+          "native": false,
+          "denom": "ibc/265435C653FE85CD659E88CD51D4A735BDD4D3804871400378A488C71D68C72B"
+        }
+      ],
+      "lp_token": "furya1q9ayplyq3tt25tps85vtdk06mqz4t4gflv7mvg4mmdvh8f8rp3ys75nnn4",
+      "swap_address": "furya12pqq87y5w4k5wjcp0ud9gl05wzmp4f4vlt7l52cwylm6xvqsfcuqcxst52",
+      "staking_address": "",
+      "rewards_tokens": []
+    },
+    {
+      "pool_id": "WILLyz-WILLye",
+      "lpOrder": ["WILLye", "WILLyz"],
+      "displayName": "WILLyz-WILLye",
+      "displayLogo1": "/logos/logo.svg",
+      "displayLogo2": "/logos/atom.png",
+      "pool_assets": [
+        {
+          "id": "fury-token",
+          "chain_id": "narwhal-1",
+          "token_address": "furya1j08452mqwadp8xu25kn9rleyl2gufgfjnv0sn8dvynynakkjukcq5u780c",
+          "symbol": "WILLyz",
+          "name": "WILLyz",
+          "decimals": 6,
+          "logoURI": "/logos/atom.png",
+          "tags": [],
+          "native": false,
+          "denom": "furya1j08452mqwadp8xu25kn9rleyl2gufgfjnv0sn8dvynynakkjukcq5u780c"
+        },
+        {
+          "chain_id": "narwhal-1",
+          "token_address": "furya1sthrn5ep8ls5vzz8f9gp89khhmedahhdqd244dh9uqzk3hx2pzrs227l7u",
+          "symbol": "WILLye",
+          "name": "WILLye",
+          "decimals": 6,
+          "logoURI": "/logos/atom.png",
+          "tags": [],
+          "native": false,
+          "denom": "furya1sthrn5ep8ls5vzz8f9gp89khhmedahhdqd244dh9uqzk3hx2pzrs227l7u"
+        }
+      ],
+      "lp_token": "furya1c2f79k5kykr5s4zhknn5w56hs5c9a8zxh4w03x07dnzwyrcj4pfsq578ez",
+      "swap_address": "furya1qjxu65ucccpg8c5kac8ng6yxfqq85fluwd0p9nt74g2304qw8eyqwr6krj",
+      "staking_address": "",
+      "rewards_tokens": []
+    },
+    {
+      "pool_id": "WILLye-WILLyb",
+      "lpOrder": ["WILLye", "WILLyb"],
+      "displayName": "WILLye-WILLyb",
+      "displayLogo1": "/logos/logo.svg",
+      "displayLogo2": "/logos/atom.png",
+      "pool_assets": [
+        {
+          "id": "fury-token",
+          "chain_id": "narwhal-1",
+          "token_address": "furya1sthrn5ep8ls5vzz8f9gp89khhmedahhdqd244dh9uqzk3hx2pzrs227l7u",
+          "symbol": "WILLye",
+          "name": "WILLye",
+          "decimals": 6,
+          "logoURI": "/logos/atom.png",
+          "tags": [],
+          "native": false,
+          "denom": "furya1sthrn5ep8ls5vzz8f9gp89khhmedahhdqd244dh9uqzk3hx2pzrs227l7u"
+        },
+        {
+          "chain_id": "narwhal-1",
+          "token_address": "furya12pwnhtv7yat2s30xuf4gdk9qm85v4j3e6p44let47pdffpklcxlq592rdm",
+          "symbol": "WILLyb",
+          "name": "WILLyb",
+          "decimals": 6,
+          "logoURI": "/logos/atom.png",
+          "tags": [],
+          "native": false,
+          "denom": "furya12pwnhtv7yat2s30xuf4gdk9qm85v4j3e6p44let47pdffpklcxlq592rdm"
+        }
+      ],
+      "lp_token": "furya13h9k5rsrgveg6sdtzg34qg499ns0e5kku74kapnskegtwyfspf6qmzlexw",
+      "swap_address": "furya10fqy0npt7djm8lg847v9rqlng88kqfdvl8tyt4ge204wf52sy68q9f8arr",
+      "staking_address": "",
+      "rewards_tokens": []
+    },
+    {
+      "pool_id": "WILLyz-WILLyg",
+      "lpOrder": ["WILLyz", "WILLyg"],
+      "displayName": "WILLyz-WILLyg",
+      "displayLogo1": "/logos/logo.svg",
+      "displayLogo2": "/logos/atom.png",
+      "pool_assets": [
+        {
+          "id": "roto-fury",
+          "chain_id": "narwhal-1",
+          "token_address": "furya1j08452mqwadp8xu25kn9rleyl2gufgfjnv0sn8dvynynakkjukcq5u780c",
+          "symbol": "WILLyz",
+          "name": "WILLyz",
+          "decimals": 6,
+          "logoURI": "/logos/atom.png",
+          "tags": [],
+          "native": false,
+          "denom": "furya1j08452mqwadp8xu25kn9rleyl2gufgfjnv0sn8dvynynakkjukcq5u780c"
+        },
+        {
+          "chain_id": "narwhal-1",
+          "token_address": "furya1kt33w2ztud5duv0e6sc05y2xk046dtv4n8tfg38h4x2ryj5td9kqln0sww",
+          "symbol": "WILLyg",
+          "name": "WILLyg",
+          "decimals": 18,
+          "logoURI": "/logos/USK.png",
+          "tags": [],
+          "native": false,
+          "denom": "furya1kt33w2ztud5duv0e6sc05y2xk046dtv4n8tfg38h4x2ryj5td9kqln0sww"
+        }
+      ],
+      "lp_token": "furya1wc0a7fchmsp5waapczq6me2fa0rz3dlcpzlwxv0h08ukg04xuh8sr5qfe2",
+      "swap_address": "furya158c7cllh2zl82rc4gyz4wse40v255vh33u2x7n28qqnaq98jl4zqx5laup",
+      "staking_address": "furya15e5cj2430xzayxtgvqutudargxd3jgtr3q8qpv8mgszjy3gm8gfsm0vv6h",
+      "staking_proxy": "furya1ldn4f4ycnq9sd9uncfemqqr58a6fpv8924wxs4w9zf6uz8hql2wsf2wwes",
+      "incentiveFactory" : "furya1wqsyztz9qw2ert8n2zypq5pp5evyqtrj7pzagrj40rwkypgghm3qeqj2jg",
+      "feeDistributor" : "furya1l9lnd2qrtkejhj30lkjwfknkvtswgf7hrtzfwkse760wnajt78mq9skwjn",
+      "rewards_tokens": []
+    },
+    {
+      "pool_id": "FURY-WILLye",
+      "lpOrder": ["FURY", "WILLye"],
+      "displayName": "FURY-WILLye",
+      "displayLogo1": "/logos/logo.svg",
+      "displayLogo2": "/logos/atom.png",
+      "pool_assets": [
+        {
+          "id": "roto-fury",
+          "chain_id": "narwhal-1",
+          "token_address": "ufury",
+          "symbol": "FURY",
+          "name": "Fury",
+          "decimals": 6,
+          "logoURI": "/logos/fury.svg",
+          "tags": ["native"],
+          "native": true,
+          "denom": "ufury"
+        },
+        {
+          "chain_id": "narwhal-1",
+          "token_address": "furya1sthrn5ep8ls5vzz8f9gp89khhmedahhdqd244dh9uqzk3hx2pzrs227l7u",
+          "symbol": "WILLye",
+          "name": "WILLye",
+          "decimals": 6,
+          "logoURI": "/logos/atom.png",
+          "tags": [],
+          "native": false,
+          "denom": "furya1sthrn5ep8ls5vzz8f9gp89khhmedahhdqd244dh9uqzk3hx2pzrs227l7u"
+        }
+      ],
+      "lp_token": "furya1ns6a8h0aal3nsdl73v2uqz7pwym8t40936y3ylhnxzrxv664elvsltucg2",
+      "swap_address": "furya1hzuymqc7c8skhr7psm87aya7uxv06dy0z7ncpx5cqyynaxqfp9nsw45ear",
+      "staking_address": "",
+      "rewards_tokens": []
+    },
+    {
+      "pool_id": "FURY-WILLyb",
+      "lpOrder": ["FURY", "WILLyb"],
+      "displayName": "FURY-WILLyb",
+      "displayLogo1": "/logos/logo.svg",
+      "displayLogo2": "/logos/atom.png",
+      "pool_assets": [
+        {
+          "id": "roto-fury",
+          "chain_id": "narwhal-1",
+          "token_address": "ufury",
+          "symbol": "FURY",
+          "name": "Fury",
+          "decimals": 6,
+          "logoURI": "/logos/logo.svg",
+          "tags": ["native"],
+          "native": true,
+          "denom": "ufury"
+        },
+        {
+          "chain_id": "narwhal-1",
+          "token_address": "furya12pwnhtv7yat2s30xuf4gdk9qm85v4j3e6p44let47pdffpklcxlq592rdm",
+          "symbol": "WILLyb",
+          "name": "WILLyb",
+          "decimals": 6,
+          "logoURI": "/logos/USK.png",
+          "tags": [],
+          "native": false,
+          "denom": "furya12pwnhtv7yat2s30xuf4gdk9qm85v4j3e6p44let47pdffpklcxlq592rdm"
+        }
+      ],
+      "lp_token": "furya1r9349j5r3j6gua27luuncdnr2efp7r23k388fkx840uh76ptxn0qklfuwh",
+      "swap_address": "furya1l4gmn3rla9uch7znt6twup5xk5rnmdphf3ymxfl5t2g9upqwrhdqr7mcg4",
+      "staking_address": "",
+      "rewards_tokens": []
+    }
+
+  ],
+  "version": {
+    "major": 0,
+    "minor": 1,
+    "patch": 0
+  }
+}
+

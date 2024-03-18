@@ -1,0 +1,36 @@
+{
+  "fury_lair": "terra1qa5a8fkynmthlrh9wsae4sqnuxdrespsls7c7acayqqvs5s63eksm53snj",
+  "incentive_factory": "terra1qsfcuketm4slntdp92kg3ltnn57j7dzq3wg3yqjr8xhsnae6fn3sjmle9y",
+  "fee_distributor": "terra1xm0yh8cv8rww6g87h3q0megt6ntxqzw6p6hgh5l4jrhed4fe7hnq9cvzm5",
+  "frontend_helper": "terra1tslnzaadfhwdj67dzfvxhhy2agp0w69dt5uk5nfeaecevdqkh52sufhfrd",
+  "fury_base_token": {
+    "name": "FURY",
+    "denom": "ibc/36A02FFC4E74DF4F64305130C3DFA1B06BEAC775648927AA44467C76A77AB8DB",
+    "decimals": 6
+  },
+  "bonding_tokens": [
+    {
+      "chain_id": "phoenix-1",
+      "token_address": "ibc/B3F639855EE7478750CC8F82072307ED6E131A8EFF20345E1D136B50C4E5EC36",
+      "symbol": "ampFURY",
+      "name": "ampFury",
+      "decimals": 6,
+      "logoURI": "/logos/ampFury.svg",
+      "tags": ["native"],
+      "native": true,
+      "denom": "ibc/B3F639855EE7478750CC8F82072307ED6E131A8EFF20345E1D136B50C4E5EC36"
+    },
+    {
+      "chain_id": "phoenix-1",
+      "token_address": "ibc/517E13F14A1245D4DE8CF467ADD4DA0058974CDCC880FA6AE536DBCA1D16D84E",
+      "symbol": "bFURY",
+      "name": "bFURY",
+      "decimals": 6,
+      "logoURI": "/logos/bFURY.png",
+      "tags": ["native"],
+      "native": true,
+      "denom": "ibc/517E13F14A1245D4DE8CF467ADD4DA0058974CDCC880FA6AE536DBCA1D16D84E"
+    }
+  ]
+}
+

@@ -1,0 +1,40 @@
+{
+  "fury_lair": "furya1p9h6jwfpfzljxq23adv34c9eplt7wmlhsmj9jrhqte465urp6weslgtzsc",
+  "incentive_factory": "furya1ve2qv24ydt7mk820me7dcrjypmhe3dfs0l65zz6jxzxpdzsv09rqcm2a95",
+  "fee_distributor": "furya1rq0v0hjjrx4alkkmsqlm5uufk2fm3r2fkjqrzunj76w463228axqxtmx98",
+  "frontend_helper": "furya15l8aeja6v9tpryrusj95nf7lmy6r6vtyv04flx7kmt5pj9veqw8s5jm5gp",
+  "fury_base_token": {
+    "name": "FURY",
+    "denom": "ufury",
+    "decimals": 6
+  },
+  "bonding_tokens": [
+    {
+      "chain_id": "furya-1",
+      "token_address": "furya1khhmjyvts3fpdfvylz7r6t7ee5klehd67j3vn8ydpnlxkkvvxkzqs6ctwr",
+      "symbol": "ampFURY",
+      "name": "ampFury",
+      "decimals": 6,
+      "logoURI": "/logos/ampFury.svg",
+      "tags": [
+        "cw20"
+      ],
+      "native": false,
+      "denom": "furya1khhmjyvts3fpdfvylz7r6t7ee5klehd67j3vn8ydpnlxkkvvxkzqs6ctwr"
+    },
+    {
+      "chain_id": "furya-1",
+      "token_address": "furya1fn78t08j8s6kuzwyp8k6qxv96hgz3l7g27zws37j0qf6j7v6ql5stc0kyc",
+      "symbol": "bFURY",
+      "name": "bFury",
+      "decimals": 6,
+      "logoURI": "/logos/bFURY.png",
+      "tags": [
+        "cw20"
+      ],
+      "native": false,
+      "denom": "furya1fn78t08j8s6kuzwyp8k6qxv96hgz3l7g27zws37j0qf6j7v6ql5stc0kyc"
+    }
+  ]
+}
+

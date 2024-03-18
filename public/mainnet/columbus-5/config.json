@@ -1,0 +1,28 @@
+{
+  "fury_lair": "terra1fatrd72lsf5hv59aeg9w00lg8yqz2fqthxxh9u9k63sngzm5nrdszt0w9u",
+  "incentive_factory": "terra1zuyalae3t5qg4gkumff0mj5he6auv73n467jknj4p6pr00wqmnjqdxv6cx",
+  "fee_distributor": "terra1d2p6vqyynhn2eraf74qtedaugfuknt32wnsm8e4uskfqv2jersdqkstzer",
+  "frontend_helper": "terra1pew7zvqmg8lq4v8hd4gtr6832exrzcsu8wz6eh9388kx5lpt75sq8j5vsk",
+  "fury_base_token": {
+    "name": "FURY",
+    "denom": "ibc/077EE5F87CE5CD419436D26533329BDC7BEE6850AD64BC316486B0DCCB13C0EB",
+    "decimals": 6
+  },
+  "bonding_tokens": [
+    {
+      "id": "roto-fury",
+      "chain_id": "columbus-5",
+      "token_address": "ibc/077EE5F87CE5CD419436D26533329BDC7BEE6850AD64BC316486B0DCCB13C0EB",
+      "symbol": "FURY",
+      "name": "Fury",
+      "decimals": 6,
+      "logoURI": "/logos/fury.svg",
+      "tags": [
+        "native"
+      ],
+      "native": true,
+      "denom": "ibc/077EE5F87CE5CD419436D26533329BDC7BEE6850AD64BC316486B0DCCB13C0EB"
+    }
+  ]
+}
+

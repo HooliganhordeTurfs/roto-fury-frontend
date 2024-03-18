@@ -1,0 +1,36 @@
+{
+  "fury_lair": "inj1vz5g8pfdk4pjjhnf8vy000nq7evc2kgnfmrxt9",
+  "incentive_factory": "inj189rhgt2d78a7djv0x6mulwy7kre07n9x3z72nd",
+  "fee_distributor": "inj1s0q949jwm6n502sspvjmnaj4zjuv36fzpl33rr",
+  "frontend_helper": "inj1fwfudkjv95qtj9h32agcfwpg0wwzz352jlyk58",
+  "fury_base_token": {
+    "name": "FURY",
+    "denom": "ibc/D6E6A20ABDD600742D22464340A7701558027759CE14D12590F8EA869CCCF445",
+    "decimals": 6
+  },
+  "bonding_tokens": [
+    {
+      "chain_id": "injective-1",
+      "token_address": "ibc/168C3904C45C6FE3539AE85A8892DF87371D00EA7942515AFC50AA43C4BB0A32",
+      "symbol": "ampFURY",
+      "name": "ampFURY",
+      "decimals": 6,
+      "logoURI": "/logos/ampFury.svg",
+      "tags": ["native"],
+      "native": true,
+      "denom": "ibc/168C3904C45C6FE3539AE85A8892DF87371D00EA7942515AFC50AA43C4BB0A32"
+    },
+    {
+      "chain_id": "injective-1",
+      "token_address": "ibc/ECB0AA28D6001EF985047558C410B65581FC85BD92D4E3CFCCA0D3D964C67CC2",
+      "symbol": "bFURY",
+      "name": "bFURY",
+      "decimals": 6,
+      "logoURI": "/logos/bFURY.png",
+      "tags": ["native"],
+      "native": true,
+      "denom": "ibc/ECB0AA28D6001EF985047558C410B65581FC85BD92D4E3CFCCA0D3D964C67CC2"
+    }
+  ]
+}
+

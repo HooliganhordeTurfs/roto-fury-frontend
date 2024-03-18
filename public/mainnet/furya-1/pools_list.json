@@ -1,0 +1,178 @@
+{
+  "name": "Pools list on mainnet",
+  "logoURI": "/logos/logo.svg",
+  "keywords": [
+    "special tokens"
+  ],
+  "tags": {
+    "ProjectName": {
+      "name": "Roto Fury",
+      "description": "Tokens that are listed on Project"
+    }
+  },
+  "timestamp": "2021-06-12T00:00:00+00:00",
+  "base_token": {
+    "id": "fanfury",
+    "chain_id": "furya-1",
+    "token_address": "ufury",
+    "symbol": "FURY",
+    "name": "Fury",
+    "decimals": 6,
+    "logoURI": "/logos/furya.png",
+    "tags": [
+      "native"
+    ],
+    "native": true,
+    "denom": "ufury"
+  },
+  "routerAddress": "furya1rpr9esfk9gyyexx698mh278dqhgwk7760p6gl4mgpp90fk79gn3qp49hpz",
+  "pools": [
+    {
+      "pool_id": "FURY-USK",
+      "lpOrder": [
+        "FURY",
+        "USK"
+      ],
+      "assetOrder": [
+        "FURY",
+        "USK"
+      ],
+      "displayName": "FURY-USK",
+      "displayLogo1": "/logos/fury.svg",
+      "displayLogo2": "/logos/USK.png",
+      "pool_assets": [
+        {
+          "id": "fanfury",
+          "chain_id": "phoenix-1",
+          "token_address": "ufury",
+          "symbol": "FURY",
+          "name": "Fury",
+          "decimals": 6,
+          "logoURI": "/logos/fury.svg",
+          "tags": [
+            "native"
+          ],
+          "native": true,
+          "denom": "ufury"
+        },
+        {
+          "id": "usk",
+          "chain_id": "phoenix-1",
+          "token_address": "ibc/093231535A38351AD2FEEFF897D23CF8FE43A44F6EAA3611F55F4B3D62C45014",
+          "symbol": "USK",
+          "name": "USK",
+          "decimals": 6,
+          "logoURI": "/logos/USK.png",
+          "tags": [
+            "native"
+          ],
+          "native": true,
+          "denom": "ibc/093231535A38351AD2FEEFF897D23CF8FE43A44F6EAA3611F55F4B3D62C45014"
+        }
+      ],
+      "lp_token": "factory/furya1xv4ql6t6r8zawlqn2tyxqsrvjpmjfm6kvdfvytaueqe3qvcwyr7shtx0hj/uLP",
+      "swap_address": "furya1xv4ql6t6r8zawlqn2tyxqsrvjpmjfm6kvdfvytaueqe3qvcwyr7shtx0hj",
+      "staking_address": "furya18t2kn6j5l0dw3lfsnllclum9j9ktr63mrlpqjlkeugj8msj9xasqks7m5p",
+      "rewards_tokens": []
+    },
+    {
+      "pool_id": "bFURY-FURY",
+      "lpOrder": [
+        "bFURY",
+        "FURY"
+      ],
+      "assetOrder": [
+        "bFURY",
+        "FURY"
+      ],
+      "displayName": "bFURY-FURY",
+      "displayLogo1": "/logos/bFURY.png",
+      "displayLogo2": "/logos/fury.svg",
+      "pool_assets": [
+        {
+          "chain_id": "furya-1",
+          "token_address": "factory/furya1mf6ptkssddfmxvhdx0ech0k03ktp6kf9yk59renau2gvht3nq2gqdhts4u/boneFury",
+          "symbol": "bFURY",
+          "name": "bFury",
+          "decimals": 6,
+          "logoURI": "/logos/bFURY.png",
+          "tags": [
+            "native"
+          ],
+          "native": true,
+          "denom": "factory/furya1mf6ptkssddfmxvhdx0ech0k03ktp6kf9yk59renau2gvht3nq2gqdhts4u/boneFury"
+        },
+        {
+          "id": "fanfury",
+          "chain_id": "furya-1",
+          "token_address": "ufury",
+          "symbol": "FURY",
+          "name": "Fury",
+          "decimals": 6,
+          "logoURI": "/logos/fury.svg",
+          "tags": [
+            "native"
+          ],
+          "native": true,
+          "denom": "ufury"
+        }
+      ],
+      "swap_address": "furya1dg5jrt89nddtymjx5pzrvdvdt0m4zl3l2l3ytunl6a0kqd7k8hss594wy6",
+      "lp_token": "factory/furya1dg5jrt89nddtymjx5pzrvdvdt0m4zl3l2l3ytunl6a0kqd7k8hss594wy6/uLP",
+      "staking_address": "furya1ns355ukd2aww4wrpwxp9cdkmx6rsc4gkwea58ng92pfwkrtpltlssyeghn",
+      "rewards_tokens": []
+    },
+    {
+      "pool_id": "ampFURY-FURY",
+      "lpOrder": [
+        "ampFURY",
+        "FURY"
+      ],
+      "assetOrder": [
+        "ampFURY",
+        "FURY"
+      ],
+      "displayName": "ampFURY-FURY",
+      "displayLogo1": "/logos/ampFury.svg",
+      "displayLogo2": "/logos/fury.svg",
+      "pool_assets": [
+        {
+          "chain_id": "furya-1",
+          "token_address": "factory/furya1436kxs0w2es6xlqpp9rd35e3d0cjnw4sv8j3a7483sgks29jqwgshqdky4/ampFURY",
+          "symbol": "ampFURY",
+          "name": "ampFury",
+          "decimals": 6,
+          "logoURI": "/logos/ampFury.svg",
+          "tags": [
+            "native"
+          ],
+          "native": true,
+          "denom": "factory/furya1436kxs0w2es6xlqpp9rd35e3d0cjnw4sv8j3a7483sgks29jqwgshqdky4/ampFURY"
+        },
+        {
+          "id": "fanfury",
+          "chain_id": "furya-1",
+          "token_address": "ufury",
+          "symbol": "FURY",
+          "name": "Fury",
+          "decimals": 6,
+          "logoURI": "/logos/fury.svg",
+          "tags": [
+            "native"
+          ],
+          "native": true,
+          "denom": "ufury"
+        }
+      ],
+      "swap_address": "furya1ull9s4el2pmkdevdgrjt6pwa4e5xhkda40w84kghftnlxg4h3knqpm5u3n",
+      "lp_token": "factory/furya1ull9s4el2pmkdevdgrjt6pwa4e5xhkda40w84kghftnlxg4h3knqpm5u3n/uLP",
+      "staking_address": "furya1qkuqpqx98zwp8pvh3a2tl536l7cmhcw2qlp0fj35tz9pt80864zsvff3l7",
+      "rewards_tokens": []
+    }
+  ],
+  "version": {
+    "major": 0,
+    "minor": 1,
+    "patch": 0
+  }
+}
