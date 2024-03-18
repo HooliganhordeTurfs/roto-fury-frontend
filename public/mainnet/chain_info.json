@@ -4,8 +4,8 @@
     "chainName": "Furya Mainnet",
     "label": "Furya",
     "icon": "/logos/furya.png",
-    "rpc": "https://rpc-mainnet.furya.xyz",
-    "rest": "https://api-mainnet.furya.xyz",
+    "rpc": "https://rpc.furya.xyz",
+    "rest": "https://api.furya.xyz",
     "stakeCurrency": {
       "coinDenom": "FURY",
       "coinMinimalDenom": "ufury",
