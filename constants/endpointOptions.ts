@@ -3,8 +3,8 @@ export const endpointOptions = {
   isLazy: true,
   endpoints: {
     furya: {
-      rpc: ['https://rpc.furya.xyz'],
-      rest: ['https://api.furya.xyz'],
+      rpc: ['https://rpc-mainnet.furya.xyz'],
+      rest: ['https://api-mainnet.furya.xyz'],
     },
     terra2: {
       rpc: ['https://ww-terra-rpc.polkachu.com'],
