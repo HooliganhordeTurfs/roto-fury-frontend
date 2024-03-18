@@ -12,6 +12,6 @@ export const POOL_INFO_BASE_URL =
 
 export const COSMOS_KIT_WALLET_KEY = 'cosmos-kit@2:core//current-wallet'
 
-export const API_URL = 'https://api-mainnet.furya.xyz'
+export const API_URL = 'https://api.furya.xyz'
 
 export const ADV_MEMO = 'roto.netlify.app'
