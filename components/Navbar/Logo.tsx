@@ -27,7 +27,7 @@ const Logo = () => {
       </a>
       <HStack display={['none', 'none', 'none', 'flex']} >
         <Text pl={2} fontSize="26" fontWeight="400">
-          White
+          Roto
         </Text>
         <Text fontSize="26" fontWeight="700">
           Fury
